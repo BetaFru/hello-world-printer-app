@@ -14,4 +14,4 @@ after_success:
 deploy:
   provider: heroku
   app: betazadanie
-  api_key: $heroku_key
+  api_key: ${heroku_key}
